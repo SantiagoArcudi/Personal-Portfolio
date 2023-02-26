@@ -1,0 +1,17 @@
+.info {
+    background: #EAF2FD;
+    padding: 0 150px 0 150px;
+    transition: 0.5s;
+}
+.info-title {
+    font-size: 52px;
+    padding: 25px 0;
+}
+.info-description {
+    font-size: 20px;
+    padding-bottom: 25px;
+    padding-right: 40%;
+}
+.indo-img {
+    width: 250px;
+}

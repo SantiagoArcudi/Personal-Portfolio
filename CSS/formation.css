@@ -1,0 +1,33 @@
+.formation {
+    background: #EAF2FD;
+    transition: 0.5s;
+}
+.formation h4 {
+    text-align: center;
+    font-size: 36px;
+    padding: 25px 0 50px 0;
+    font-weight: bold;
+}
+.formation-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 150px 50px 150px;
+}
+.formation-item {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.formation-item img {
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    padding: 20% 15%;
+}
+.formation-item h6 {
+    font-size: 22px;
+}
+.formation-item p {
+    font-size: 18px;
+    margin-bottom: 100px;
+}

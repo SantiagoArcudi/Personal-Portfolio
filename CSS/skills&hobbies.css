@@ -1,0 +1,32 @@
+.skills-hobbies {
+    margin: 0 150px 0 150px;
+    margin-bottom: 60px;
+    transition: 0.5s;
+}
+.skills-tittle, .hobbies-tittle {
+    text-align: center;
+    font-size: 36px;
+    padding: 25px 0 50px 0;
+    font-weight: bold;
+}
+.skills-list, .hobbies-list {
+    display: flex;
+    height: 157px;
+}
+.skill-list-item, .hobbie-list-item {
+    display: flex;
+    margin: 0 25px;
+    border-radius: 10px;
+    width: 16.66%;
+    background-color: #ffffff;
+    padding: 25px;
+    color: #464646;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-size: 18px;
+    flex-direction: column;
+}
+.skill-list-item img, .hobbie-list-item img {
+    width: 30px;
+    margin-bottom: 5px;
+} 

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Muestra</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/latbar.css">
+    <link rel="stylesheet" href="./CSS/Modal.css">
+    <link rel="stylesheet" href="./CSS/about.css">
+    <link rel="stylesheet" href="./CSS/info.css">
+    <link rel="stylesheet" href="./CSS/skills&hobbies.css">
+    <link rel="stylesheet" href="./CSS/Formation.css">
+    <link rel="stylesheet" href="./CSS/Experience.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+</head>
+<body>
+    <header id="navbar" class="navbar">
+        <div class="navbar-init">
+            <img src="./img/Icon.png" alt="Stars-Icon" class="navbar-img">
+            <h1 class="navbar-name">Santiago Arcudi</h1>
+        </div>
+        <nav>
+            <ul class="navbar-links">
+                <li class="navbar-link"><a href="#">Inicio</a></li>
+                <li class="navbar-link"><a href="#">Skills</a></li>
+                <li class="navbar-link"><a href="#">Hobbies</a></li>
+                <li class="navbar-link"><a href="#">Formación</a></li>
+                <li class="navbar-link"><a href="#">Proyectos</a></li>
+                <li class="navbar-contact">SantiArcudi1@gmail.com</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="lat">
+        <nav class="latbar">
+            <div class="latbar-header">
+                <button class="latbar-toggle" id="latbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="latbar-container">
+                    <button id="latbar-toggle" class="latbar-toggle">
+                        <span class="latbar-toggle-icon"></span>
+                    </button>
+                    <nav id="latbar-menu" class="latbar-menu">
+                        <ul class="latbar-lat">
+                            <li class="lat-item"><a onclick="toPlace('navbar')" class="lat-link">navigation bar</a></li>
+                            <li class="lat-item"><a onclick="toPlace('about')" class="lat-link">about</a></li>
+                            <li class="lat-item"><a onclick="toPlace('info')" class="lat-link">info</a></li>
+                            <li class="lat-item"><a onclick="toPlace('skills')" class="lat-link">Skills & Hobbies</a></li>
+                            <li class="lat-item"><a onclick="toPlace('formation')" class="lat-link">Formacion academica</a></li>
+                            <li class="lat-item"><a onclick="toPlace('experience')" class="lat-link">Experiencia</a></li>
+                            <li class="lat-item"><a onclick="toPlace('contact')" class="lat-link">Formulario de contacto</a></li>
+                            <li class="lat-item"><a onclick="toPlace('footer')" class="lat-link">Pie de pagina</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </nav>	  
+    </section>
+
+    <!--<section class="modal">
+        <button id="open-modal">Abrir ventana modal</button>
+        <div id="modal">
+            <div id="modal-content">
+                <button id="close-modal">x</button>
+                <h2>Título de la ventana modal</h2>
+                <p>Contenido de la ventana modal</p>
+            </div>
+        </div>
+    </section>!-->
+
+    <section id="about" class="about">
+        <div class="about-div">
+            <div class="about-head">
+                <h2 class="about-tittle">Hola, mi nombre es santiago Arcudi y soy programador full stack</h2>
+                <p class="about-intro">Llevo estudiando programacion por 4 meses y actualmente me estoy formando en el proyecto Oracle ONE de Alura Latam</p>
+                <ul class="about-contact">
+                    <li class="about-contacts"><a href="https://github.com/SantiagoArcudi" target="_blank">Github <img src="./img/Flechita.png"></a></li>
+                    <li class="about-contacts"><a href="https://www.linkedin.com/in/santiago-arcudi/" target="_blank">Linkedin <img src="./img/Flechita.png"></a></li>
+                    <li class="about-contacts"><a href="#">Instagram <img src="./img/Flechita.png"></a></li>
+                    <li class="about-contacts"><a href="#">Curriculum <img src="./img/Flechita.png"></a></li>
+                </ul>
+            </div>
+            <img src="./img/Imagen Preliminar.jpg" class="about-img">
+        </div>
+    </section>
+
+    <section id="info" class="info">
+        <h3 class="info-title">Sobre Mi</h3>
+        <p class="info-description">Hola, mi nombre es Santiago Arcudi, soy de Argentina y tengo 24 años.</p>
+        <p class="info-description">Llevo estudiando programacíon unos meses y es un mundo que me interesa de hace años pero nunca había probado.</p>
+        <img src="./img/Firma.png" class="indo-img">
+    </section>
+
+    <section id="skills" class="skills-hobbies">
+        <h4 class="skills-tittle">Skills</h4>
+        <div class="skills">
+            <ul class="skills-list">
+                <li class="skill-list-item"><img src="./img/HTML.png">HTML</li>
+                <li class="skill-list-item"><img src="./img/CSS.png">CSS</li>
+                <li class="skill-list-item"><img src="./img/JS.png">JavaScript</li>
+                <li class="skill-list-item"><img src="./img/CSS.png">cuatro</li>
+                <li class="skill-list-item"><img src="./img/CSS.png">cinco</li>
+                <li class="skill-list-item"><img src="./img/CSS.png">seis</li>
+            </ul>
+        </div>
+
+        <h4 class="hobbies-tittle">Hobbies</h4>
+        <nav class="hobbies">
+            <ul class="hobbies-list">
+                <li class="hobbie-list-item"><img src="./img/CSS.png">uno</li>
+                <li class="hobbie-list-item"><img src="./img/CSS.png">dos</li>
+                <li class="hobbie-list-item"><img src="./img/CSS.png">tres</li>
+                <li class="hobbie-list-item"><img src="./img/CSS.png">cuatro</li>
+                <li class="hobbie-list-item"><img src="./img/CSS.png">cinco</li>
+                <li class="hobbie-list-item"><img src="./img/CSS.png">seis</li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="formation" class="formation">
+        <h4>Formación académica</h4>
+        <nav>
+            <ul class="formation-list">
+                <li class="formation-item">
+                    <img src="./img/Icono Egg.png">
+                    <h6>Logica de programación</h6>
+                    <p>2022 - Egg</p>
+                </li>
+                <li class="formation-item">
+                    <img src="./img/Icono Alura.png">
+                    <h6>Programación Full-Stack</h6>
+                    <p>2022 - Alura Latam</p>
+                </li>
+                <li class="formation-item">
+                    <img src="./img/Icono Open Bootcamp.png">
+                    <h6>Programación Full-Stack</h6>
+                    <p>2022 - Open Bootcamp</p>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="experience" class="experience">
+        <p>Experiencia</p>
+        <nav>
+            <div class="card">
+                <div class="circular-card transition EB"></div>
+                <h2 class="transition">Encriptador Binario<br><small>HTML - CSS - JavaScript</small></h2>
+                <div class="transition-container transition"><a target="_blank" href="https://santiagoarcudi.github.io/Encriptador-de-texto/indexBinario.html" class="transition-control">Ver</a></div>
+            </div>
+            
+            <div class="card">
+                <div class="circular-card transition EA"></div>
+                <h2 class="transition">Encriptador Alura<br><small>HTML - CSS - JavaScript</small></h2>
+                <div class="transition-container transition"><a target="_blank" href="https://santiagoarcudi.github.io/Encriptador-de-texto/index.html" class="transition-control">Ver</a></div>
+            </div>
+        
+            <div class="card">
+                <div class="circular-card transition A"></div>
+                <h2 class="transition">Ahorcado<br><small>HTML - CSS - JavaScript</small></h2>
+                <div class="transition-container transition"><a target="_blank" href="https://santiagoarcudi.github.io/Encriptador-de-texto/index.html" class="transition-control">Ver</a></div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="contact" class="contact-form">
+        <div class="contact">
+            <img class="contact-img" src="./img/Telefono Foto.png">
+            <form action="mailto:SantiArcudi1@gmail.com" method="post" enctype="text/plain">
+                <h5>Contacto</h5>
+                <p>¿Quieres contactarme?</p>
+                <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="contact-input" required>
+              
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" class="contact-input" required>
+              
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" class="contact-input" required>
+              
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" class="contact-input" required></textarea>
+              
+                <button type="submit" class="contact-button">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <p>Desarrollado por Santiago Arcudi</p>
+        <img src="./img/Copy.png" class="footer-img" alt="copyright-icon">
+        <p class="footer-p">2023</p>
+    </footer>
+</body>
+<script src="./JS/latbar.js"></script>
+<script src="./JS/Modal.js"></script>
+<script src="./JS/scroll.js"></script>
+</html>

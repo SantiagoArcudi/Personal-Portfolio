@@ -1,0 +1,13 @@
+.footer {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px 200px;
+    margin: 5px 0;
+}
+.footer-img {
+    width: 28px;
+    margin-top: 10px;
+}
+.footer-p {
+    display: inline-block;
+}
