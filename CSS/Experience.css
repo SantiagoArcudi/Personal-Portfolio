@@ -23,11 +23,11 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
-.EA {
-    background-image: url(../img/EncriptadorAlura.PNG);
-}
 .EB {
     background-image: url(../img/EncriptadorBinario.PNG);
+}
+.EA {
+    background-image: url(../img/EncriptadorAlura.PNG);
 }
 .A {
     background-image: url(../img/Ahorcado.PNG);
