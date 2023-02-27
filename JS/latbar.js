@@ -25,7 +25,7 @@ latbarToggle.addEventListener('click', () => {
 
         formation.style.margin = '0';
 
-        experience.style.margin = '0';
+        experience.style.margin = '0 150px';
 
         footer.style.margin = '5px 0px';
     } else {
